@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zmpl&#39;s blogs</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-12-07T14:10:09.334Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zmpl</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/12/07/test/"/>
+    <id>http://yoursite.com/2019/12/07/test/</id>
+    <published>2019-12-07T14:10:09.000Z</published>
+    <updated>2019-12-07T14:10:09.334Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python笔记</title>
+    <link href="http://yoursite.com/2019/12/07/python%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/12/07/python%E7%AC%94%E8%AE%B0/</id>
+    <published>2019-12-07T14:01:18.118Z</published>
+    <updated>2019-12-07T14:01:18.118Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="python笔记"><a href="#python笔记" class="headerlink" title="python笔记"></a>python笔记</h1><h3 id="python代码编写"><a href="#python代码编写" class="headerlink" title="python代码编写"></a>python代码编写</h3><h6 id="python的注释"><a href="#python的注释" class="headerlink" title="python的注释"></a>python的注释</h6><p>1.单行注释<br><code>单行注释:</code><img src="https://zmpl.github.io/images/py_img/danhang.png" alt="单行注释"><br>2.多行注释<br><code>多行注释1:</code><img src="../../../../images/py_img/duohang_1.png" alt="多行注释1"><br><code>多行注释2:</code><img src="../../../../images/py_img/duohang_2.png" alt="多行注释2">  </p><h6 id="空格缩进"><a href="#空格缩进" class="headerlink" title="空格缩进"></a>空格缩进</h6><p>python中空格表示缩进<br>例如:<br><img src="../../../../images/py_img/for_suojin.png" alt="for循环"><br>如果上面的for循环中，没有缩进<code>print()</code>将不是for循环的语句<br><strong>在python的代码的编写中，保持良好的代码缩进风格，也要使用好空格</strong><br>例如:<br><img src="../../../../images/py_img/kg_use.png" alt="空格使用"><br>在使用操作符的时候最好在操作符两端加上一个空格，在使用<code>,</code>号时最好在<code>,</code>号后加一个空格  </p><h3 id="python变量和数据类型"><a href="#python变量和数据类型" class="headerlink" title="python变量和数据类型"></a>python变量和数据类型</h3><h6 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h6><ul><li>python中的变量必须先声明后使用，不然会报未定义错误  </li><li><strong>python中没有常量，python中的常量知识逻辑上的常量</strong>  </li><li>变量可以用<code>del</code>删除，删除后再使用会报未定义错误，对象没有引用会被垃圾回收器回收。  </li><li>python中定义变量不用声明数据类型，变量的数据类型由变量值决定。<br>例如:<br><img src="../../../../images/py_img/bldy.png" alt="定义变量"><br>b是<code>int</code>类型,c是<code>float</code>类型,d是<code>bool</code>类型,e是<code>str</code>类型,f也是<code>str</code>类型  </li></ul><h6 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h6><p>python是动态类型语言(变量类型由变量值确定)，也是强类型语言(每个对象都有数据类型，只支持该数据类型的操作)  </p><p><strong>类型转换:</strong><br>小数转整数:截掉小数保留整数<code>int(3.23)=&gt;3</code><br>字符串数字:转成对应的整数<code>int(&quot;1234&quot;)=&gt;1234</code><br>布尔值转整数:True转换1，false转成0<code>int(True)=&gt;1,int(False)=&gt;0</code><br>整数和小数相加自动转换成小数<br><code>float(x)</code>将x转换成<code>float</code>类型，x不变，产生新的对象。</p><h5 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h5><p><code>+</code>:加号运算符<br><code>-</code>:减号运算符<br><code>*</code>:乘号运算符<br><code>/</code>:除号运算符(有小数)<br><code>//</code>:加号运算符(小数截掉)<br><code>%</code>:取余运算符<br><code>**</code>:乘方运算符  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;python笔记&quot;&gt;&lt;a href=&quot;#python笔记&quot; class=&quot;headerlink&quot; title=&quot;python笔记&quot;&gt;&lt;/a&gt;python笔记&lt;/h1&gt;&lt;h3 id=&quot;python代码编写&quot;&gt;&lt;a href=&quot;#python代码编写&quot; class=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/12/07/hello-world/"/>
+    <id>http://yoursite.com/2019/12/07/hello-world/</id>
+    <published>2019-12-07T14:01:18.094Z</published>
+    <updated>2019-12-07T14:01:18.094Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
