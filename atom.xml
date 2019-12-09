@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-07T14:10:09.334Z</updated>
+  <updated>2019-12-09T05:05:42.199Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,28 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2019/12/07/test/"/>
-    <id>http://yoursite.com/2019/12/07/test/</id>
-    <published>2019-12-07T14:10:09.000Z</published>
-    <updated>2019-12-07T14:10:09.334Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>python笔记</title>
-    <link href="http://yoursite.com/2019/12/07/python%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/12/07/python%E7%AC%94%E8%AE%B0/</id>
-    <published>2019-12-07T14:01:18.118Z</published>
-    <updated>2019-12-07T14:01:18.118Z</updated>
+    <link href="http://yoursite.com/2019/12/09/python%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/12/09/python%E7%AC%94%E8%AE%B0/</id>
+    <published>2019-12-09T05:05:42.199Z</published>
+    <updated>2019-12-09T05:05:42.199Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="python笔记"><a href="#python笔记" class="headerlink" title="python笔记"></a>python笔记</h1><h3 id="python代码编写"><a href="#python代码编写" class="headerlink" title="python代码编写"></a>python代码编写</h3><h6 id="python的注释"><a href="#python的注释" class="headerlink" title="python的注释"></a>python的注释</h6><p>1.单行注释<br><code>单行注释:</code><img src="https://zmpl.github.io/images/py_img/danhang.png" alt="单行注释"><br>2.多行注释<br><code>多行注释1:</code><img src="../../../../images/py_img/duohang_1.png" alt="多行注释1"><br><code>多行注释2:</code><img src="../../../../images/py_img/duohang_2.png" alt="多行注释2">  </p><h6 id="空格缩进"><a href="#空格缩进" class="headerlink" title="空格缩进"></a>空格缩进</h6><p>python中空格表示缩进<br>例如:<br><img src="../../../../images/py_img/for_suojin.png" alt="for循环"><br>如果上面的for循环中，没有缩进<code>print()</code>将不是for循环的语句<br><strong>在python的代码的编写中，保持良好的代码缩进风格，也要使用好空格</strong><br>例如:<br><img src="../../../../images/py_img/kg_use.png" alt="空格使用"><br>在使用操作符的时候最好在操作符两端加上一个空格，在使用<code>,</code>号时最好在<code>,</code>号后加一个空格  </p><h3 id="python变量和数据类型"><a href="#python变量和数据类型" class="headerlink" title="python变量和数据类型"></a>python变量和数据类型</h3><h6 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h6><ul><li>python中的变量必须先声明后使用，不然会报未定义错误  </li><li><strong>python中没有常量，python中的常量知识逻辑上的常量</strong>  </li><li>变量可以用<code>del</code>删除，删除后再使用会报未定义错误，对象没有引用会被垃圾回收器回收。  </li><li>python中定义变量不用声明数据类型，变量的数据类型由变量值决定。<br>例如:<br><img src="../../../../images/py_img/bldy.png" alt="定义变量"><br>b是<code>int</code>类型,c是<code>float</code>类型,d是<code>bool</code>类型,e是<code>str</code>类型,f也是<code>str</code>类型  </li></ul><h6 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h6><p>python是动态类型语言(变量类型由变量值确定)，也是强类型语言(每个对象都有数据类型，只支持该数据类型的操作)  </p><p><strong>类型转换:</strong><br>小数转整数:截掉小数保留整数<code>int(3.23)=&gt;3</code><br>字符串数字:转成对应的整数<code>int(&quot;1234&quot;)=&gt;1234</code><br>布尔值转整数:True转换1，false转成0<code>int(True)=&gt;1,int(False)=&gt;0</code><br>整数和小数相加自动转换成小数<br><code>float(x)</code>将x转换成<code>float</code>类型，x不变，产生新的对象。</p><h5 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h5><p><code>+</code>:加号运算符<br><code>-</code>:减号运算符<br><code>*</code>:乘号运算符<br><code>/</code>:除号运算符(有小数)<br><code>//</code>:加号运算符(小数截掉)<br><code>%</code>:取余运算符<br><code>**</code>:乘方运算符  </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="python笔记"><a href="#python笔记" class="headerlink" title="python笔记"></a>python笔记</h1><h3 id="python代码编写"><a href="#python代码编写" class="headerlink" title="python代码编写"></a>python代码编写</h3><h6 id="python的注释"><a href="#python的注释" class="headerlink" title="python的注释"></a>python的注释</h6><p>1.单行注释<br><code>单行注释:</code><img src="../../../../images/py_img/danhang.png" alt="单行注释"><br>2.多行注释<br><code>多行注释1:</code><img src="../../../../images/py_img/duohang_1.png" alt="多行注释1"><br><code>多行注释2:</code><img src="../../../../images/py_img/duohang_2.png" alt="多行注释2">  </p><p>3.空格缩进<br>python中空格表示缩进<br>例如:<br><img src="../../../../images/py_img/for_suojin.png" alt="for循环"><br>如果上面的for循环中，没有缩进<code>print()</code>将不是for循环的语句<br><strong>在python的代码的编写中，保持良好的代码缩进风格，也要使用好空格</strong><br>例如:<br><img src="../../../../images/py_img/kg_use.png" alt="空格使用"><br>在使用操作符的时候最好在操作符两端加上一个空格，在使用<code>,</code>号时最好在<code>,</code>号后加一个空格  </p><h3 id="python变量和数据类型"><a href="#python变量和数据类型" class="headerlink" title="python变量和数据类型"></a>python变量和数据类型</h3><h6 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h6><ul><li>python中的变量必须先声明后使用，不然会报未定义错误  </li><li><strong>python中没有常量，python中的常量知识逻辑上的常量</strong>  </li><li>变量可以用<code>del</code>删除，删除后再使用会报未定义错误，对象没有引用会被垃圾回收器回收。  </li><li>python中定义变量不用声明数据类型，变量的数据类型由变量值决定。<br>例如:<br><img src="../../../../images/py_img/bldy.png" alt="定义变量"><br>b是<code>int</code>类型,c是<code>float</code>类型,d是<code>bool</code>类型,e是<code>str</code>类型,f也是<code>str</code>类型  </li></ul><h6 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h6><p>python是动态类型语言(变量类型由变量值确定)，也是强类型语言(每个对象都有数据类型，只支持该数据类型的操作)  </p><p><strong>类型转换:</strong><br>小数转整数:截掉小数保留整数<code>int(3.23)=&gt;3</code><br>字符串数字:转成对应的整数<code>int(&quot;1234&quot;)=&gt;1234</code><br>布尔值转整数:True转换1，false转成0<code>int(True)=&gt;1,int(False)=&gt;0</code><br>整数和小数相加自动转换成小数<br><code>float(x)</code>将x转换成<code>float</code>类型，x不变，产生新的对象。</p><h5 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h5><p><code>+</code>:加号运算符<br><code>-</code>:减号运算符<br><code>*</code>:乘号运算符<br><code>/</code>:除号运算符(有小数)<br><code>//</code>:加号运算符(小数截掉)<br><code>%</code>:取余运算符<br><code>**</code>:乘方运算符<br><code>==</code>:恒等运算符，判断对象内容是否相同<br><code>is</code>:判断两个对象是否相同(比较地址)，<strong>在python中解释器会缓存(-5-255)的整数数，这之间的数都是同一对象(两个对象值相等就相等)。在pycharm中所有整数和小数都是同一对象。</strong><br><code>is not</code>:判断两个对象是否是不同对象。<br><code>is</code>主要用于判断变量和None  </p><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><p><strong>字符串的本质是字符序列，python中的字符串是不可变的</strong>。<br>python不支持字符，单个字符也是字符串。<br>python3支持unicode编码,默认就是16位的unicode编码  </p><h5 id="字符串的创建"><a href="#字符串的创建" class="headerlink" title="字符串的创建"></a>字符串的创建</h5><p><code>a=&#39;abc&#39;或a=&quot;abc&quot;</code>,如果字符串中存在单引号可以用双引号包裹字符串，反之字符串中有双引号则用单引号包裹字符串。也可以在字符串中用<code>\&#39;</code>转义单引号，同样双引号也可以儿这样转义。  </p><h5 id="字符串处理常用方法"><a href="#字符串处理常用方法" class="headerlink" title="字符串处理常用方法"></a>字符串处理常用方法</h5><p><code>ord()</code>:将字符转成Unicode码的十进制表示。<br><code>chr()</code>:将十进制数字转换成Unicode码的对应字符。  </p>]]></content>
     
     <summary type="html">
     
